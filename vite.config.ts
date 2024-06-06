@@ -13,7 +13,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://shop-for-w-default-rtdb.firebaseio.com", // TODO: take from env
+        target: "https://travel-fyno-default-rtdb.firebaseio.com/", // TODO: take from env
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ""),
       },

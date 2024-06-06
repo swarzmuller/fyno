@@ -3,6 +3,10 @@ import { css } from "@emotion/react";
 export const PlaceDescription = css`
   margin: 28px 0;
   padding: 32px 0;
+
+  @media (max-width: 600px) {
+    padding: 0;
+  }
 `;
 
 export const Title = css`
@@ -56,4 +60,9 @@ export const Expert = css`
 export const Text = css`
   font-size: 16px;
   line-height: 24px;
+
+  @media (max-width: 600px) {
+    font-size: 14px;
+    line-height: 18px;
+  }
 `;

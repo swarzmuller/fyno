@@ -9,6 +9,10 @@ export const SearchBox = css`
     font-size: 22px;
     line-height: 28px;
     margin-bottom: 24px;
+
+    @media (max-width: 600px) {
+      margin-bottom: 8px;
+    }
   }
 `;
 

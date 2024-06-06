@@ -1,7 +1,6 @@
 import { Button } from "@/components";
 import Label from "@/assets/label.svg?react";
 import Share from "@/assets/share.svg?react";
-import Ava from "@/assets/images/ava.png";
 import * as S from "./styles";
 
 export const PlaceDescription = () => {
@@ -15,7 +14,10 @@ export const PlaceDescription = () => {
         </div>
       </div>
       <div css={S.Expert}>
-        <img src={Ava} alt="Avatar" />
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/travel-fyno.appspot.com/o/images%2Fava.png?alt=media&token=53dfd1c9-71e8-4520-9571-7c233f2d735f"
+          alt="Avatar"
+        />
         <p>
           <span>Curated by Sandra</span>
           <span>Fyno expert</span>

@@ -6,4 +6,8 @@ export const LayoutBase = styled.div`
     background: #ffffff;
     padding: 0 32px;
     margin: 0 auto;
+
+    @media (max-width: 600px) {
+      padding: 0 10px;
+    }
 `

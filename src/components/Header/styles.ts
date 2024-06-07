@@ -35,6 +35,7 @@ export const HeaderButton = css`
   font-size: 15px;
   line-height: 32px;
   padding: 0 12px;
+  color: #000000;
 `;
 
 export const Dropdown = css`

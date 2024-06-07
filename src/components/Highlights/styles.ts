@@ -35,14 +35,14 @@ export const Block = css`
   }
 `;
 
-export const Text = css`
+export const TextSight = css`
   color: #3c3c43cc;
   font-size: 16px;
   line-height: 24px;
 
   @media (max-width: 600px) {
     font-size: 14px;
-    line-height: 18px;
+    line-height: 16px;
   }
 `;
 

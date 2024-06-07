@@ -60,9 +60,4 @@ export const Expert = css`
 export const Text = css`
   font-size: 16px;
   line-height: 24px;
-
-  @media (max-width: 600px) {
-    font-size: 14px;
-    line-height: 18px;
-  }
 `;

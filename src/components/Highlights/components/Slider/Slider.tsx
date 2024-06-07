@@ -36,7 +36,7 @@ export const Slider = ({ sights }: { sights: Highliht[] & PlaceToStay[] }) => {
           {
             itemsToShow: 2,
             itemsToScroll: 1,
-            maxWidth: 600,
+            maxWidth: 767,
           },
         ]}
         speed={400}

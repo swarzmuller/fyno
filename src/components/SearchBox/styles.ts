@@ -66,6 +66,7 @@ export const Input = css`
     border: none;
     box-shadow: 0px 0px 0px 0.5px #9797974d;
     width: 100%;
+    background: #ffffff;
   }
 
   input::-webkit-outer-spin-button,

@@ -12,6 +12,7 @@ export const Button = css`
   border-radius: 8px;
   box-shadow: 0px 0px 0px 0.5px rgba(151, 151, 151, 0.3);
   transition: 300ms;
+  color: #000;
 
   span {
     display: flex;

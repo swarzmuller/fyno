@@ -19,7 +19,7 @@ export const PlaceContainer = ({
           icon={<span>{highlightItem.order}</span>}
         />
         <Tags tags={highlightItem.tags} />
-        <p css={S.Text}>{highlightItem.description}</p>
+        <p css={[S.TextSight,]}>{highlightItem.description}</p>
       </div>
       <div css={S.Block}>
         <div css={S.Region}>

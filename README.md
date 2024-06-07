@@ -1,3 +1,3 @@
-# Cards
+# Travel
 
 https://travel-fyno.web.app/
